@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I am Mohit engineering student </p>
+        </div>
+    </section>
+
+    <section id="accomplishments">
+        <div class="container">
+            <h2>Accomplishments</h2>
+            <ul>
+                <li>Completed my first year</li>
+                <li>learn almost everything about c and c++ language</li>
+                <li>recieved some certificates from several sites</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: mohitatri0765@email.com</p>
+            <p>LinkedIn: Mohit</p>
+            <p>GitHub: MOHITATRISINGH</p>
+        </div>
+    </section>
+
+</body>
+</html>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-weight: bold;
+}
+
